@@ -18,7 +18,7 @@
   <body>
     <div class="container">
 
-      <h1 class="text-center">Спасибо! <a href="http://tvoyo.net.ua/form_telegram/index.html">Вернуться и заполнить заново</a></h1>
+      <h1 class="text-center">Спасибо! <a href="http://tvoyo.net.ua/form_telegram/index.php">Вернуться и заполнить заново</a></h1>
 
     </div><!-- /.container -->
 

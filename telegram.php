@@ -24,11 +24,11 @@ if($name != "" && $phone != "" && $email != ""){
 $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
 
 if ($sendToTelegram) {
-  header('Location: thank-you.html');
+  header('Location: thank-you.php');
 } else {
   echo "Error";
 }
 }else{
-	echo 'Пожалуйста, зполните все поля! <a href="http://tvoyo.net.ua/form_telegram/index.html">Вернуться и заполнить заново</a>';
+	echo 'Пожалуйста, зполните все поля! <a href="http://tvoyo.net.ua/form_telegram/index.php">Вернуться и заполнить заново</a>';
 }
 ?>
